@@ -20,7 +20,7 @@ CREATE TABLE product (
   stock INT NOT NULL DEFAULT(10),
   category_id INT, 
   FOREIGN KEY (category_id)
-  REFERENCES category(id),
+  REFERENCES category(id)
 );
 
 CREATE TABLE tag (
